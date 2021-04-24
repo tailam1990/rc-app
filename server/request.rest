@@ -1,0 +1,6 @@
+
+GET http://localhost:5001/api/users/?limit=50
+
+###
+
+DELETE http://localhost:5001/api/users/0P6E1d4nr0L1ntW8cjGU

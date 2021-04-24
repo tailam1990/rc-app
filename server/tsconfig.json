@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "sourceMap": true,
+    "outDir": "build",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./types"]
+  }
+}
